@@ -1,3 +1,3 @@
 import { of } from 'rxjs'
 
-of('Hello World').subscribe((v) => console.log(v))
+of('Hello World').subscribe(console.log)
